@@ -1,0 +1,25 @@
+{
+    "name": "faris/passport-service-provider",
+    "type": "library",
+    "description": "统一账号服务，提供账号系统SDK",
+    "keywords": ["统一账号", "服务接口"],
+    "homepage": "https://github.com/xFaris/passport-service-provider",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "faris",
+            "email": "faris2017@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "illuminate/config": "~5.0",
+        "illuminate/support": "~5.0",
+        "guzzlehttp/guzzle": "~6.2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Faris\\Passport\\": "src/"
+        }
+    }
+}
